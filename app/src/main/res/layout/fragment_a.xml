@@ -1,0 +1,346 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    tools:context=".FragmentA">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/call911"
+        android:textAllCaps="false"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:id="@+id/call911button"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_action_call"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="@android:color/darker_gray"
+        android:id="@+id/call911line" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/callhelpline"
+        android:textAllCaps="false"
+        android:id="@+id/callhelplinebutton"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_action_call"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/callhelplineline" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/textcrisistextline"
+            android:id="@+id/textbutton1"
+            android:textAllCaps="false"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/mail"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:id="@+id/texthelplineline" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/calltherapist"
+        android:id="@+id/callbutton1"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_action_call"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/callline1"
+        android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:id="@+id/callbutton2"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textAllCaps="false"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline2"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:id="@+id/callbutton3"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline3"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:textAllCaps="false"
+            android:id="@+id/callbutton4"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline4"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:id="@+id/callbutton5"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline5"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:textAllCaps="false"
+            android:id="@+id/callbutton6"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline6"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:id="@+id/callbutton7"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline7"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:textAllCaps="false"
+            android:id="@+id/callbutton8"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline8"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:id="@+id/callbutton9"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline9"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/calltherapist"
+            android:id="@+id/callbutton10"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/callline10"
+            android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/findlocalurgentcare"
+        android:id="@+id/findlocalurgentcarebutton"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_action_locate"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/findlocalemergencydepartments"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:id="@+id/findlocalemergencydepartmentbutton"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_action_locate"
+        style="?android:attr/borderlessButtonStyle"
+        />
+</LinearLayout>
+</ScrollView>

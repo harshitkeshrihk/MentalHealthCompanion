@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="warningsigns">Warning Signs</string>
+    <string name="copingstrategies">Coping Strategies</string>
+    <string name="placesfordistraction">Places for Distraction</string>
+    <string name="contacts">Contacts</string>
+    <string name="professionals">Professionals</string>
+    <string name="makingenvironmentsafe">Making Environment Safe</string>
+    <string name="extranote">Other</string>
+    <string name="reasontolive">Reasons to Live</string>
+    <string name="warningsignsquestion">What sort of thoughts, images, moods, situations, or behaviors indicate to you that a crisis may be developing? (Ex. Urges to drink, sleeping more than usual, skipping responsibilities) </string>
+    <string name="warningsignsenter">Warning signs: </string>
+    <string name="copingstrategiesquestion">What are some things that you can do on your own to help you not act on thoughts / urges to harm yourself? (Ex. television, exercise, games)</string>
+    <string name="copingstrategiesenter">Coping strategies: </string>
+    <string name="socialsettingsquestion">What healthy social settings can help you take your mind off of things? (Ex. Local park, cousin’s place, coffee shop)</string>
+    <string name="socialsettingsenter">Places: </string>
+    <string name="enterfriendsfamily">Friends / Family whom I can ask for help</string>
+    <string name="entercounselornumber">Enter Therapist\'s Phone Number:</string>
+    <string name="entercontacts">Enter the names and numbers of friends, family, professionals, or other resources you can contact during a crisis. </string>
+    <string name="enterpsychiatrist">Enter Psychiatrist\'s Phone Number: </string>
+    <string name="enterextranote">Enter any other notes that may be helpful to you during a crisis.</string>
+    <string name="environmentsafequestion">Have you thought of ways in which you might harm yourself? Develop a plan to limit your access to these means. (Ex. Remove firearms, keep only small amount of pills at home, remove alcohol) </string>
+    <string name="environmentsafeenter">Enter ways to make your environment safe: </string>
+    <string name="save">Save</string>
+    <string name="worthlivingenter">Enter things that are important to you and worth living for: </string>
+    <string name="call911">Call 911</string>
+    <string name="callhelpline">Call Helpline</string>
+    <string name="calltherapist">Call Therapist</string>
+    <string name="callpsychiatrist">Call Psychiatrist</string>
+    <string name="callfriendsfamily">Call Friends / Family</string>
+    <string name="findlocalurgentcare">Find Urgent Care</string>
+    <string name="findlocalemergencydepartments">Find Emergency Department</string>
+    <string name="remindertoself">Reason to Live</string>
+    <string name="worthlivingfor">Press the button above to add things that are worth living for</string>
+    <string name="action_settings">Setting</string>
+    <string name="app_name">Sui Safe</string>
+    <string name="title_activity_editwarningsigns">Edit Warning Signs</string>
+    <string name="title_activity_editcopingstrategies">Edit Coping Strategies</string>
+    <string name="title_activity_editplacesfordistraction">Edit Places for Distraction</string>
+    <string name="title_activity_editmakingenvironmentsafe">Edit Making Environment Safe</string>
+    <string name="title_activity_editfriendsandfamily">Edit Friends and Family</string>
+    <string name="title_activity_editprofessionals">Edit Professionals</string>
+    <string name="title_activity_editreasontolive">Edit Reasons to Live</string>
+    <string name="obtainpermission">Please obtain permission to call beforehand. </string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="cancel">Cancel</string>
+    <string name="call">Call</string>
+    <string name="ok">OK</string>
+    <string name="emptyprofessionals">Press the button above to add professionals you can call during a crisis.</string>
+    <string name="emptyfriendsfamily">Press the button above to add the names of friends and family you can call during a crisis. </string>
+    <string name="emptycopingstrategies">Press the button above to add coping strategies.</string>
+    <string name="emptymakingenvironmentsafe">Press the button above to add methods of making your environment safe. </string>
+    <string name="emptywarningsigns">Press the button above to add warning signs that a crisis may occur. </string>
+    <string name="emptyplacesfordistraction">Press the button above to add places that can distract you. </string>
+    <string name="emptynotes">Press the button above to add any additional notes that could be helpful. </string>
+    <string name="emptycontacts">Press the button above to add any people, professionals, or other numbers that you can contact. </string>
+    <string name="emergency">Emergency</string>
+    <string name="safetyplan">Safety Plan</string>
+    <string name="instructionoptions">Suicidal thoughts can seem like they will last forever – but for many, these thoughts and feelings pass. Having a plan in place that can help guide you through difficult moments can make a difference and keep you safe. Below are various ways to fill out this safety plan. </string>
+    <string name="option1">Option 1:  Work with Therapist</string>
+    <string name="option2">Option 3: </string>
+    <string name="option3">Option 2: </string>
+    <string name="watchvideo">Watch Video</string>
+    <string name="option1description">Ideally, the best way to develop this plan is to work jointly with your counselor or therapist. Bring this application to your next appointment and fill it out with them. </string>
+    <string name="option2description">You can also press the button above to call the national suicide prevention lifeline and fill out the safety plan with the assistance of a Lifeline counselor. Once you reach a counselor, put the call on speakerphone and navigate back to this application. </string>
+    <string name="option3description">You can also watch the above YouTube video and then fill out the safety plan on your own. </string>
+    <string name="title_activity_first_launch">FirstLaunch</string>
+    <string name="intro1">Struggling with thoughts of suicide?</string>
+    <string name="intro2">A safety plan can help guide you through difficult moments.</string>
+    <string name="introbutton">Get Started</string>
+    <string name="prefpreviouslystarted">previouslystarted</string>
+    <string name="instructionstextview">Press the ? icon in the upper right corner for instructions on how to fill out this safety plan. </string>
+    <string name="guide">Guide</string>
+    <string name="emergencynumber">911</string>
+    <string name="hotlinename">988 Suicide and Crisis Lifeline</string>
+    <string name="helplinenumber">988</string>
+    <string name="suicidepreventiondesc">If you are suicidal, I want you to know that virtually every person that I have talked with who attempted suicide, and survived, was glad that they lived. So the emotions that were causing the suicidal feelings did pass. Things got better; the sun did come out. So, let me extend that hope to you.
+\n\nPlease look at the Safety Plan module of this application. There, you can fill out a safety plan that can keep you safe during difficult times as well as find a list of helpful resources. Specifically, I want to encourage you to call the 988 Suicide and Crisis Lifeline. They are there to help you, even if you are not in a suicidal crisis.
+</string>
+
+    <string name="overview">Overview</string>
+    <string name="coping">Coping</string>
+    <string name="recovering">Recovering</string>
+    <string name="usingsafetyplan">Using the Safety Plan</string>
+    <string name="suicideprevention">Suicide Prevention</string>
+    <string name="reasonstolive">Reasons to Live</string>
+    <string name="resources">Resources</string>
+
+
+    <string name="overviewdescription">If you are having thoughts of suicide, you are not alone. Many people have had suicidal thoughts at some point in their lives. Some problems and experiences can leave you feeling hopeless and overwhelmed. Feeling suicidal is not a sign of weakness, and it doesn\'t mean that you are weak or crazy. Thinking of suicide occurs when pain exceeds the resources for coping with that pain. You may think that you have no options left and suicide would be a way to escape intense emotional pain. But while this pain may seem overwhelming and permanent, with time and support, you can overcome your problems and the pain, as well as the suicidal feelings, will pass. \n\nTake hope in the fact that people DO get through this, even when they are feeling as badly as you do now. There is a very good chance that you are going to live through these feelings, no matter how much pain you are currently experiencing.
+\n\nThis application is designed to support you and help you deal with your suicidal urges when they arise so that you may continue on the path to recovery. Please take the time to read this guide and fill out the Safety Plan. The Safety Plan will come in handy when you have thoughts of hurting yourself. Once it is completed, you can follow the steps outlined in your Safety Plan to cope with your emotional pain. If following the Safety Plan is not enough to alleviate your pain, you can call for help or find a local emergency center through the Crisis tab of the app.
+</string>
+    <string name="makingenvironmentsafedescription">It is critical to make your environment safe by removing things you could use to hurt yourself. Either remove them yourself or talk to a trusted friend or family member and have them remove objects such as guns, knives, razors, or pills. If you need pills regularly, your trusted friend or family member can give you the pills on an as-needed basis according to the prescription. If you have a specific plan in place, make sure to tell your trusted friend or family member about the plan so they can ensure your safety.
+</string>
+    <string name="coping1title">Promise not to do anything right now</string>
+    <string name="coping1description">Even if you are in a lot of pain, give yourself some distance between thoughts and action. Make a promise to yourself. For example, "I won\'t do anything drastic in the next 24 hours." Or wait a week. Thoughts and actions are two different things. There\'s no deadline. Wait so you can put some distance between your thoughts and actions. </string>
+    <string name="coping2title">Follow the Safety Plan</string>
+    <string name="coping2description">Do activities that have helped you cope in the past, reflect on your reasons to live, go to a safe place to distract yourself, or contact friends / family / professionals. If this is not enough or not possible, go to the Emergency Tab and reach out for help.
+</string>
+    <string name="coping3title">Avoid dangerous substances / objects</string>
+    <string name="coping3description">Suicidal thoughts can become even stronger when you have taken drugs or alcohol. In addition, remove yourself from places where you may have access to things that you can use to hurt yourself.
+</string>
+    <string name="coping4title">Reach out</string>
+    <string name="coping4description">If you are worried that you may lose control or do something to hurt yourself, tell someone. Make sure you are around someone you trust.</string>
+    <string name="coping5title">Do the opposite of how you feel</string>
+    <string name="coping5description">When you have thoughts of suicide, it can be helpful to do the opposite of how you feel. For example, when people feel depressed they usually want to be alone. Doing the opposite can help with feelings of depression.
+</string>
+    <string name="coping6title">Problem-solve</string>
+    <string name="coping6description">Think of ways that you can potentially solve your problems. Make a list of all of the problems you are dealing with right now. Then, make a list of all of the solutions you can think of to those problems. Asking someone you trust to help you with this can be useful. Dealing with one or two small problems can help to put an end to immediate feelings of suicide. Once you are thinking more clearly, you can tackle other bigger problems.
+</string>
+    <string name="recovering1title">Reach out for help</string>
+    <string name="recovering1description">	Get professional support by talking to your doctor or by going to other resources available online. Many times, suicidal thoughts are caused by clinical depression or other mental illnesses. Mental health professionals such as a therapist or a psychiatrist can help you overcome these problems. In addition, there may be support groups in the area that can help you share your experiences and listen to the experiences of others in an understanding manner.
+</string>
+    <string name="recovering2title">Make a schedule</string>
+    <string name="recovering2description">	Follow a routine for yourself every day and stick to it as closely as possible. For example, wake up at a regular time, sleep at a regular time, and have regular planned activities in your day such as exercising or showering.
+</string>
+    <string name="recovering3title">Take care of yourself</string>
+    <string name="recovering3description">It\'s important to take good care of yourself. Strategies that have been shown to improve your mood are exercising, getting proper nutrition, sleeping well, getting more sunlight, and forming supportive relationships.
+</string>
+    <string name="recovering4title">Identify signs of suicidal thoughts</string>
+    <string name="recovering4description">	In the Safety Plan you can identify warning signs of a suicidal crisis, such as certain situations, places, or people. Try to find ways to avoid these triggers.
+</string>
+    <string name="recovering5title">Things to avoid</string>
+    <string name="recovering5description">• Being alone\n• Alcohol and drugs\n• Doing things that make you feel worse\n• Ruminating about suicide \n
+</string>
+
+    <string name="prevention1title">Introduction</string>
+    <string name="prevention1description">	People dealing with suicidal thoughts don\'t necessarily want to die - they just want to stop the pain. Please take any signs of suicidal thought seriously. In this guide we will cover the warning signs of suicide, how to talk to a suicidal person about suicide, responding to a suicidal crisis, and supporting them during recovery.
+</string>
+    <string name="prevention2title">Warning signs of suicide</string>
+    <string name="prevention2description">It is important to recognize the warning signs of suicide and to take them seriously. \n\nAntidepressant warning - While antidepressants have been shown to be helpful in reducing suicidal thoughts, varying reactions to different antidepressants means that for some, the first time on antidepressants or changes in antidepressant type / dose increase the risk of suicide. It is critical to monitor someone because the <b> risk of suicide is greatest during the first two months of new antidepressant treatment.</b>
+    \n\n Warning Signs: \n\n
+            • Talking about wanting to die or to kill oneself.\n
+			• Looking for a way to kill oneself, such as searching online or buying a gun.\n
+			• Talking about feeling hopeless or having no reason to live.\n
+			• Talking about feeling trapped or in unbearable pain.\n
+			• Talking about being a burden to others.\n
+			• Increasing the use of alcohol or drugs.\n
+			• Acting anxious or agitated; behaving recklessly.\n
+			• Sleeping too little or too much.\n
+			• Withdrawn or feeling isolated.\n
+			• Showing rage or talking about seeking revenge.\n
+			• Displaying extreme mood swings.\n
+			• Preoccupation with death.\n
+			• Suddenly happier, calmer.\n
+			• Loss of interest in things one cares about.\n
+			• Visiting or calling people to say goodbye.\n
+			• Making arrangements; setting one\'s affairs in order.\n
+			• Giving things away, such as prized possessions.
+    </string>
+
+    <string name="prevention3title">Talking to a suicidal person</string>
+    <string name="prevention3description">If you think a friend or family member is considering suicide, you might be afraid to bring up the subject. However, talking openly about suicidal thoughts and feelings can save a life. The easiest way to start the conversation is simply to ask: Are you having thoughts of suicide?\n\n
+        • Be direct. Talk openly and matter-of-factly about suicide.\n
+		• Be willing to listen. Allow expressions of feelings. Accept the feelings.\n
+		• Be non-judgmental. Don\'t debate whether suicide is right or wrong, or whether feelings are good or bad. Don\'t lecture on the value of life.\n
+		• Get involved. Become available. Show interest and support.\n
+		• Don\'t dare him or her to do it.\n
+		• Don\'t act shocked. This will put distance between you.\n
+		• Don\'t be sworn to secrecy. Seek support.\n
+		• Offer hope that alternatives are available but do not offer glib reassurance.\n
+		• Take action. Remove means, such as guns or stockpiled pills.\n
+		• Get help from persons or agencies specializing in crisis intervention and suicide prevention.
+</string>
+    <string name="prevention4title">Respond quickly in a crisis</string>
+    <string name="prevention4description">
+        When somebody tells you they are thinking about suicide, you can start with evaluating the level of suicide risk that the person is in. \n\n
+		Level of suicide risk\n
+			• Low - thoughts of suicide, but no plan or intent\n
+			• Medium - thoughts of suicide with vague plan, but no suicidal actions\n
+			• High - thoughts of suicide with specific plan \n
+			• Very high - thoughts of suicide with specific plan and intent to carry out the plan\n\nIf a suicide attempt seems imminent, call a local crisis center, dial 911, or take the person to an emergency room. Remove guns, drugs, knives, and other potentially lethal objects from the vicinity but do not, under any circumstances, leave a suicidal person alone.
+    </string>
+    <string name="prevention5title">Support during recovery</string>
+    <string name="prevention5description">Remove potential means of suicide - Remove knives, guns, and other potential lethal objects from the suicidal person. If he or she is likely to overdose on pills, then keep medications with you and give them out only as necessary to follow the prescription.
+		\n\nGet them professional help - Encourage the person to seek a mental health professional, be it a doctor or therapist. You can call a crisis line for help and guidance, even if you yourself are not suicidal.
+		\n\nSupport them - Ask the person every once in a while how he or she is feeling so that if the person is going through another suicidal crisis, you can ensure they are not alone. Encourage the person to reach out to you if they are feeling acutely suicidal.
+		\n\nTake care of yourself - It can be emotionally difficult to support a person for an extended period of time. It is important for you to make sure your own health and happiness are solid. While you cannot simply control the suicidal person and make them better, you can control how well you take care of yourself.
+    </string>
+    <string name="suicideresourcesdescription"><a href="http://www.helpguide.org/articles/suicide-prevention/suicide-help-dealing-with-your-suicidal-thoughts-and-feelings.htm">Helpguide - Dealing with Suicide</a>
+\n\n<a href="http://www.helpguide.org/articles/suicide-prevention/suicide-prevention-helping-someone-who-is-suicidal.htm">Helpguide - Helping Someone Who Is Suicidal</a>
+\n\n<a href="http://www.metanoia.org/suicide/">Metanoia - If you are thinking about suicide read this first</a>
+\n\n<a href="http://www.wikihow.com/Cope-With-Suicidal-Thoughts">Wikihow - How to Cope With Suicidal Thoughts</a>
+</string>
+    <string name="safetyplandescription">Suicidal thoughts can seem like they will last forever – but for many, these thoughts and feelings pass. Having a plan in place that can help guide you through difficult moments can make a difference and keep you safe. Ideally, such a plan is developed jointly with your counselor or therapist. It can also be developed with a crisis line counselor who can help you write down actions to take and people to contact in order to feel safe from suicide. In general, a safety plan is designed so that you can start at step one and continue through the steps until you feel safe. When you have thoughts of suicide, refer to your safety plan.
+        \n\nThe following are essential elements to explore and include in the development of your safety plan:\n\n1. Recognize warning signs: What sorts of thoughts, images, moods, situations, and behaviors indicate to you that a crisis may be developing? Write these down in your own words.
+        \n\n2. Use your own coping strategies – without contacting another person: What are some things that you can do on your own to help you not act on thoughts/urges to harm yourself?
+        \n\n3. Remind yourself of your reasons for living: What are things that are most important to you?
+        \n\n4. Reach out. Add family members, friends, mental health professionals, local agencies, or anybody else who you can call for support or to help resolve a crisis.
+        \n\n5. Find a place with others who may offer support as well as distraction from the crisis: Make a list of healthy social settings that may help take your mind off things.
+</string>
+
+
+    <!-- just get rid of the part that mentions suicide prevention lifeline -->
+    <!-- customize this to the individual helpline -->
+    <string name="findhelpurl">http://twloha.com/find-help</string>
+    <string name="findtherapisturl">http://m.therapists.psychologytoday.com/rms/prof_search.php</string>
+
+    <string name="discard_text">Discard</string>
+    <string name="save_text">Save</string>
+    <string name="title_activity_guide_overview">Overview</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_guide_coping">Coping</string>
+    <string name="title_activity_guide_recovering">Recovering</string>
+    <string name="title_activity_guide_suicide_prevention">Suicide Prevention</string>
+    <string name="title_activity_suicideresources">Resources</string>
+    <string name="title_activity_guide_safety_plan">GuideSafetyPlan</string>
+    <string name="enternameforphonenumber">Please enter a name for the phone number.</string>
+
+    <string name="instructions">Instructions</string>
+    <string name="getmoodtools">Get MoodTools</string>
+    <string name="about">About</string>
+    <string name="contactus">Contact Us</string>
+    <string name="visitwebpage">Visit Webpage</string>
+
+    <string name="aboutdesc">This application was developed by MoodTools, a pioneer in the field of mobile mental health. Founded in 2014, MoodTools has quickly become the top mobile solution for clinical depression.
+    \n\nVersion: 1.5\n\n***\n\nDedicated to Kelsey Brian</string>
+
+    <string name="importcontact">Import Contact</string>
+    <string name="namecolon">Name: </string>
+    <string name="phonenumbercolon">Phone #: </string>
+    <string name="addanother">+ Add Another</string>
+
+    <string name="callfrienddialog1">You named </string>
+    <string name="callfrienddialog2"> as someone you can trust. Launch contacts app to call now?</string>
+    <string name="callfrienddialog3"> as people you can trust. Launch contacts app to call now?</string>
+    <string name="and">and</string>
+    <!--Callfrienddialog appears as 'You named EDDIE as someone you can trust. Launch contacts app to call now?'
+     OR
+     'You named EDDIE and KELSEY as people you can trust. Launch contacts app to call now?-->
+    <string name="callfollowingpeopledialog">Launch the phone app to call one of the following people:</string>
+    <string name="errorenterfriends">No friends or family have been listed in the Safety Plan. Enter now?</string>
+    <string name="errornopsychiatrist">No psychiatrist number has been listed in the Safety Plan. Enter now?</string>
+    <string name="errornotherapist">No therapist number has been listed in the Safety Plan. Enter now</string>
+    <string name="plan">Plan</string>
+    <string name="crisis">Crisis</string>
+    <string name="text">Text</string>
+    <string name="textcrisistextline">Text Crisis Text Line</string>
+    <string name="textlinenumber">741741</string>
+    <string name="textlinename">Crisis Text Line</string>
+    <string name="findsuicidehotline">Find Suicide Hotline</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

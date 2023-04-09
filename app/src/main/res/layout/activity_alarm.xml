@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".AlarmActivity">
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="200dp"
+        android:src="@drawable/alarmpng"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/selectedTimeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="08 : 45 PM"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45dp"/>
+
+    <EditText
+        android:id="@+id/hours"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/edit_text_border"
+        android:inputType="number"
+        android:hint="HH" />
+
+    <EditText
+        android:id="@+id/minutes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/edit_text_border"
+        android:inputType="number"
+        android:hint="MM"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/selectTimeBtn"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Select Time"-->
+<!--        android:textSize="26dp"-->
+<!--        android:backgroundTint="@color/green" />-->
+
+    <Button
+        android:id="@+id/setAlarmBtn"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:text="Set Alarm"
+        android:textSize="26dp"
+        android:backgroundTint="@color/green"/>
+
+    <Button
+        android:id="@+id/cancelAlarmBtn"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:text="Close the app to stop"
+        android:textSize="26dp"
+        android:backgroundTint="@color/green"/>
+
+
+</LinearLayout>

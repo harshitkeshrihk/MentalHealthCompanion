@@ -1,0 +1,651 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".editcontacts">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entercontacts"
+        android:id="@+id/entercontactstextview"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/contactslinearlayout"
+        android:layout_below="@+id/entercontactstextview">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/importcontact"
+            android:visibility="gone"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/importcontactbutton"
+            android:layout_gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/editcontactrl01"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview01"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext01"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|textCapWords"
+            android:text="Eddie"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:id="@+id/contactnameedittext01"
+                android:layout_alignLeft="@+id/contactnumberedittext01"
+                android:layout_alignStart="@+id/contactnumberedittext01" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview01"
+                android:layout_below="@+id/editnametextview01"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext01"
+                android:layout_toRightOf="@+id/editphonetextview01"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext01" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl02"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:id="@+id/editnametextview02"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext02"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext02"
+                android:layout_alignLeft="@+id/contactnumberedittext02"
+                android:layout_alignStart="@+id/contactnumberedittext02" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview02"
+                android:layout_below="@+id/editnametextview02"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext02"
+                android:layout_toRightOf="@+id/editphonetextview02"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext02" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl03"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview03"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext03"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext03"
+                android:layout_alignLeft="@+id/contactnumberedittext03"
+                android:layout_alignStart="@+id/contactnumberedittext03" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview03"
+                android:layout_below="@+id/editnametextview03"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext03"
+                android:layout_toRightOf="@+id/editphonetextview03"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext03" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl04"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview04"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext04"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext04"
+                android:layout_alignLeft="@+id/contactnumberedittext04"
+                android:layout_alignStart="@+id/contactnumberedittext04" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview04"
+                android:layout_below="@+id/editnametextview04"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext04"
+                android:layout_toRightOf="@+id/editphonetextview04"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext04" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl05"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview05"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext05"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext05"
+                android:layout_alignLeft="@+id/contactnumberedittext05"
+                android:layout_alignStart="@+id/contactnumberedittext05" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview05"
+                android:layout_below="@+id/editnametextview05"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext05"
+                android:layout_toRightOf="@+id/editphonetextview05"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext05" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl06"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview06"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext06"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext06"
+                android:layout_alignLeft="@+id/contactnumberedittext06"
+                android:layout_alignStart="@+id/contactnumberedittext06" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview06"
+                android:layout_below="@+id/editnametextview06"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext06"
+                android:layout_toRightOf="@+id/editphonetextview06"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext06" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl07"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview07"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext07"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext07"
+                android:layout_alignLeft="@+id/contactnumberedittext07"
+                android:layout_alignStart="@+id/contactnumberedittext07" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview07"
+                android:layout_below="@+id/editnametextview07"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext07"
+                android:layout_toRightOf="@+id/editphonetextview07"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext07" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl08"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview08"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext08"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext08"
+                android:layout_alignLeft="@+id/contactnumberedittext08"
+                android:layout_alignStart="@+id/contactnumberedittext08" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview08"
+                android:layout_below="@+id/editnametextview08"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext08"
+                android:layout_toRightOf="@+id/editphonetextview08"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext08" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl09"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview09"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext09"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext09"
+                android:layout_alignLeft="@+id/contactnumberedittext09"
+                android:layout_alignStart="@+id/contactnumberedittext09" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview09"
+                android:layout_below="@+id/editnametextview09"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext09"
+                android:layout_toRightOf="@+id/editphonetextview09"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext09" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editcontactrl10"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namecolon"
+                android:id="@+id/editnametextview10"
+                android:textSize="16sp"
+                android:layout_marginBottom="13dp"
+                android:layout_alignBottom="@+id/contactnameedittext10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|textCapWords"
+                android:text="Eddie"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnameedittext10"
+                android:layout_alignLeft="@+id/contactnumberedittext10"
+                android:layout_alignStart="@+id/contactnumberedittext10" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonenumbercolon"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/editphonetextview10"
+                android:layout_below="@+id/editnametextview10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_below="@+id/contactnameedittext10"
+                android:layout_toRightOf="@+id/editphonetextview10"
+                android:text="123456789"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:id="@+id/contactnumberedittext10" />
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Add another"
+            android:textSize="17dp"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/contactsaddnew"
+            android:layout_below="@+id/contactslinearlayout"/>
+
+
+    </RelativeLayout>
+</ScrollView>

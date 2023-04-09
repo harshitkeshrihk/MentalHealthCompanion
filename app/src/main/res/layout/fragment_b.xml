@@ -1,0 +1,569 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    tools:context=".FragmentB">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/instructionstextview"
+            android:text="@string/instructionstextview"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:text="@string/warningsigns"
+            android:drawableLeft="@drawable/warningsigns"
+            android:id="@+id/editwarningsignsbutton" />
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="-first warning sign"
+    android:layout_marginLeft="50dp"
+        android:fontFamily="@font/dm_sans"
+    android:id="@+id/warningsigntextview1"
+
+        android:textSize="14sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-second warning sign"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/dm_sans"
+        android:textSize="14sp"
+        android:id="@+id/warningsigntextview2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-third warning sign"
+        android:fontFamily="@font/dm_sans"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/warningsigntextview3"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/warningsigntextview4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/warningsigntextview5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/warningsigntextview6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/warningsigntextview7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="-third warning sign"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/warningsigntextview8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/warningsigntextview9"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/warningsigntextview10"
+            />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-light"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:text="@string/copingstrategies"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/coping"
+            android:id="@+id/editcopingstrategiesbutton" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-first warning sign"
+            android:fontFamily="@font/dm_sans"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/copingstrategiestextview1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dm_sans"
+        android:text="-second warning sign"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/copingstrategiestextview2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-third warning sign"
+        android:fontFamily="@font/dm_sans"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/copingstrategiestextview3"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/copingstrategiestextview4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/copingstrategiestextview5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/copingstrategiestextview6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/copingstrategiestextview7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/copingstrategiestextview8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/copingstrategiestextview9"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/copingstrategiestextview10"
+            />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:text="@string/reasonstolive"
+            android:drawableLeft="@drawable/sun"
+            android:id="@+id/editworthlivingbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:layout_height="wrap_content"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:layout_height="wrap_content"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/dm_sans"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview9"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:layout_height="wrap_content"
+            android:text="@string/worthlivingfor"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/worthlivingtextview10"
+            />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/button_border"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:text="@string/contacts"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/family"
+            android:id="@+id/editcontactsbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/contacttextview1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/contacttextview2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/contacttextview3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/contacttextview4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/contacttextview5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/contacttextview6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/contacttextview7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/contacttextview8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/contacttextview9"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/contacttextview10"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dm_sans"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/button_border"
+            android:text="@string/placesfordistraction"
+            android:drawableLeft="@drawable/placesfordistraction"
+            android:id="@+id/editplacesfordistractionbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-first warning sign"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+
+            android:id="@+id/placesfordistractiontextview1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-second warning sign"
+            android:fontFamily="@font/dm_sans"
+
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview9"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-third warning sign"
+            android:fontFamily="@font/dm_sans"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/placesfordistractiontextview10"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-light"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:background="@drawable/button_border"
+            android:textColor="#41B7B7"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="@string/extranote"
+            android:drawableLeft="@drawable/glasses"
+            android:id="@+id/extranotesbutton" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dm_sans"
+            android:id="@+id/notetextview"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".editreasontolive">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/worthlivingenter"
+        android:id="@+id/worthlivingentertextview"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/worthlivinglinearlayout"
+        android:layout_below="@+id/worthlivingentertextview">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext1"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext2"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext3"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext4"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext5"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext6"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext7"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext8"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext9"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionNext" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasontoliveedittext10"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:imeOptions="actionDone" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addanother"
+            android:textSize="17dp"
+            android:textColor="@color/gray"
+            android:onClick="AddNew"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/reasontoliveaddnew"
+            android:layout_below="@+id/worthlivinglinearlayout"/>
+
+
+    </RelativeLayout>
+</ScrollView>

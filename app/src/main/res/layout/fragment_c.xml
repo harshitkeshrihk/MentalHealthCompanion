@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+    tools:context=".FragmentC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:textAllCaps="false"
+        android:gravity="center"
+    android:drawableLeft="@drawable/eye"
+    android:text="@string/overview"
+    android:id="@+id/suicideoverviewbutton"
+    android:layout_gravity="center_horizontal"
+    style="?android:attr/borderlessButtonStyle"
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/coping"
+        android:drawableLeft="@drawable/coping"
+        android:id="@+id/suicidecopingbutton"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/uparrow"
+        android:text="@string/recovering"
+        android:id="@+id/suiciderecoveringbutton"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/safetyplan"
+        android:drawableLeft="@drawable/crossoutline"
+        android:id="@+id/suicideusingsafetyplanbutton"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/suicideprevention"
+        android:drawableLeft="@drawable/warningsigns"
+        android:id="@+id/suicidepreventionbutton"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/makingenvironmentsafe"
+        android:drawableLeft="@drawable/safeenv"
+        android:id="@+id/editmakingenvironmentsafebutton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/button_border"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="#41B7B7"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/resources"
+        android:drawableLeft="@drawable/web"
+        android:id="@+id/suicideresourcesbutton" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download"
+            android:scaleType="centerCrop"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

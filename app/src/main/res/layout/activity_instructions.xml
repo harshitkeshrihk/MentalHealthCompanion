@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".instructions">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructionoptions"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/instructionoptionstextview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/option1"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/option1textview"
+            android:layout_below="@+id/instructionoptionstextview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option1description"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/option1textview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/option3"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/option2textview"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/watchvideo"
+            android:id="@+id/watchsafetyplanvideo"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/play"
+            android:fontFamily="sans-serif-light"
+            android:onClick="watchsafetyplanvideo"
+            android:textSize="22sp"
+            android:layout_gravity="center_horizontal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_alignBottom="@+id/option2textview"
+            android:layout_toRightOf="@+id/option2textview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option3description"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/option2textview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/option2"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/option3textview"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="34dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/callhelpline"
+            android:id="@+id/callhelplinebuttoninstructions"
+            android:fontFamily="sans-serif-light"
+            android:textSize="22sp"
+            android:onClick="callhelpline"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_action_call"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_alignBottom="@+id/option3textview"
+            android:layout_toRightOf="@+id/option3textview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option2description"
+            android:id="@+id/option3descriptiontextview"
+            android:layout_below="@+id/option3textview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

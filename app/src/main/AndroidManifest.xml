@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hk.suisafe">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    //fitband
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyMaterialTheme">
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlarrmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".editwarningsigns"
+            android:label="@string/title_activity_editwarningsigns"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".editcopingstrategies"
+            android:label="@string/title_activity_editcopingstrategies"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".editplacesfordistraction"
+            android:label="@string/title_activity_editplacesfordistraction"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".editmakingenvironmentsafe"
+            android:label="@string/makingenvironmentsafe" />
+        <activity
+            android:name=".editcontacts"
+            android:label="@string/title_activity_editfriendsandfamily"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".editextranote"
+            android:label="@string/title_activity_editprofessionals"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".editreasontolive"
+            android:label="@string/title_activity_editreasontolive"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".instructions"
+            android:label="@string/title_activity_instructions" />
+        <activity
+            android:name=".FirstLaunch"
+            android:label="@string/title_activity_first_launch"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".GuideOverview"
+            android:label="@string/title_activity_guide_overview" />
+        <activity
+            android:name=".GuideCoping"
+            android:label="@string/title_activity_guide_coping" />
+        <activity
+            android:name=".GuideRecovering"
+            android:label="@string/title_activity_guide_recovering" />
+        <activity
+            android:name=".GuideSuicidePrevention"
+            android:label="@string/title_activity_guide_suicide_prevention" />
+        <activity
+            android:name=".suicideresources"
+            android:label="@string/title_activity_suicideresources" />
+        <activity
+            android:name=".GuideSafetyPlan"
+            android:label="@string/safetyplan" />
+        <receiver android:name=".AlarmReceiver" />
+    </application>
+
+</manifest>
